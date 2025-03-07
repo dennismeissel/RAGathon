@@ -1,0 +1,46 @@
+[project]
+name = "ragathon"
+version = "0.1.0"
+description = "RAGathon - RAG Challenge"
+authors = [
+    {name = "Reto Herger"},
+    {name = "Dennis Meissel"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+
+dependencies = [
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "llama-index (>=0.12.15,<0.13.0)",
+    "llama-index-vector-stores-chroma (>=0.4.1,<0.5.0)",
+    "llama-index-embeddings-nvidia (>=0.3.1,<0.4.0)",
+    "langgraph (>=0.2.73,<0.3.0)",
+    "torch (>=2.6.0,<3.0.0)",
+    "torchvision (>=0.21.0,<0.22.0)",
+    "torchaudio (>=2.6.0,<3.0.0)",
+    "langchain_openai (>=0.3.6)",
+    "marker-pdf (>=1.5.5,<2.0.0)"
+]
+
+[[tool.poetry.source]]
+name = "pytorch-gpu-src"
+url = "https://download.pytorch.org/whl/cu126"
+priority = "explicit"
+
+[tool.poetry.dependencies]
+torch = {source = "pytorch-gpu-src"}
+torchvision = {source = "pytorch-gpu-src"}
+torchaudio = {source = "pytorch-gpu-src"}
+
+[tool.pytest.ini_options]
+pythonpath = "."
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
