@@ -1,21 +1,39 @@
-MIT License
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
 
-Copyright (c) 2025 Swisscom Innovation Lab (Dennis Meissel, Reto Herger)
+Copyright (C) 2025 Swisscom Innovation Lab (Dennis Meissel, Reto Herger)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+### Additional Notice:
+This software incorporates `marker-pdf`, which is licensed under the GNU General Public License v3 (GPL-3.0). As a result, this entire software project is also licensed under the GPL-3.0 to comply with its terms.
+
+For more information on GPL-3.0 compliance, please visit: <https://www.gnu.org/licenses/gpl-3.0.html>
+
+To ensure compliance:
+- If you distribute this software, you must also distribute its source code.
+- Any modifications must also be released under GPL-3.0.
+- Ensure that all users have access to the license and source code.
+
+For any questions, please contact:
+Dennis Meissel & Reto Herger
+Swisscom Innovation Lab
+
+---
+
+This file is based on the official GNU General Public License version 3. The full text of the license can be found at:
+<https://www.gnu.org/licenses/gpl-3.0.txt>
+
