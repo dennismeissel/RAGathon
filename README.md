@@ -1,6 +1,6 @@
 # Enterprise RAG Challenge 2025
 
-This is the solution for the [Enterprise RAG Challenge 2025](https://www.timetoact-group.at/details/enterprise-rag-challenge)
+This is the solution for the [Enterprise RAG Challenge 2025](https://www.timetoact-group.at/en/insights/enterprise-rag-challenge-team-leaderboard)
 
 # Overview
 
